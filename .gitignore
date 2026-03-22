@@ -1,0 +1,40 @@
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ─────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Environment / secrets ───────────────────
+.env
+*.env
+!.env.example
+
+# ── OS & editors ────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Flask / runtime ──────────────────────────
+instance/
+.flask_session/
+flask_session/
+
+# ── Logs ─────────────────────────────────────
+*.log
+logs/
